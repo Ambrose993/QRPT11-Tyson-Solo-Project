@@ -15,19 +15,27 @@ export class groupPage extends BasePage {
     lightMode: By = By.xpath('(//div[@class="modeSwitch__wrapper pp_toggle_theme"])[1]');
         darkMode: By = By.xpath('(//div[@class="modeSwitch__wrapper pp_toggle_theme"])[2]');
 
-    builderPage: By = By.xpath('(//li[@class="nav-icon nav-icon--builder"])');
+    builderPage: By = By.xpath('(//li[@class="nav__categories--partlist"])');
         cpuBPage: By = By.xpath('(//a[@class="button  button--icon button--small"])[1]');
             cpuAddPart: By = By.xpath('(//button[@class="td__add button button--small pp_add_part"])[5]');
         cpuCBPage: By = By.xpath('(//a[@class="button  button--icon button--small"])[2]');
             cpuCAddPart: By = By.xpath('(//button[@class="td__add button button--small pp_add_part"])[3]');
         mBoardBPage: By = By.xpath('(//a[@class="button  button--icon button--small"])[3]');
+            mBoardAP: By = By.xpath('(//button[@class="td__add button button--small pp_add_part"])[7]');
         memoryBPage: By = By.xpath('(//a[@class="button  button--icon button--small"])[4]');
+            memoryAP: By = By.xpath('(//button[@class="td__add button button--small pp_add_part"])[10]');
         storageBPage: By = By.xpath('(//a[@class="button  button--icon button--small"])[5]');
+            storageAP: By = By.xpath('(//button[@class="td__add button button--small pp_add_part"])[5]');
         videoCBPage: By = By.xpath('(//a[@class="button  button--icon button--small"])[6]');
+            videoCAP: By = By.xpath('(//button[@class="td__add button button--small pp_add_part"])[3]');
         caseBPage: By = By.xpath('(//a[@class="button  button--icon button--small"])[7]');
+            caseAP: By = By.xpath('(//button[@class="td__add button button--small pp_add_part"])[2]');
         powerSBPage: By = By.xpath('(//a[@class="button  button--icon button--small"])[8]');
+            powerAP: By = By.xpath('(//button[@class="td__add button button--small pp_add_part"])[7]');
         operatingSystemBPage: By = By.xpath('(//a[@class="button  button--icon button--small"])[9]');
+            operatingAP: By = By.xpath('(//button[@class="td__add button button--small pp_add_part"])[6]');
         monitorBPage: By = By.xpath('(//a[@class="button  button--icon button--small"])[10]');
+            monitorAP: By = By.xpath('(//button[@class="td__add button button--small pp_add_part"])[8]');
 
 
     constructor() {
