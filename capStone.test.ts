@@ -1,4 +1,4 @@
-//WARNING!!!! This code works but the website will block you, they do not have a Captcha warning but they will block multiple tests. 
+//WARNING!!!! This code works but the website will block you, as soon as the Automation goes to a product page it says "Permission Denied" and blocks the IP address
 
 
 import { groupPage } from "./PageObject";
