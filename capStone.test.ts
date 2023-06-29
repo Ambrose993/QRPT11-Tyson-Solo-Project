@@ -1,7 +1,7 @@
 //WARNING!!!! This code works but the website will block you, as soon as the Automation goes to a product page it says "Permission Denied" and blocks the IP address
 
 
-import { groupPage } from "./PageObject";
+import { groupPage } from "./PCPPageObject";
 const tools = new groupPage();
 
 afterAll(async() => {
