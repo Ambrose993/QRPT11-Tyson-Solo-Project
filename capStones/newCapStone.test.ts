@@ -1,4 +1,4 @@
-import { newEgg } from "../newPageObject";
+import { newEgg } from "./newPageObject";
 const tools = new newEgg();
 
 afterAll(async() => {
